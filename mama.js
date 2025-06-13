@@ -1,4 +1,4 @@
-/*const pensées = [
+const pensées = [
   { texte: "La vie est un cadeau, ne la gaspille pas. 🎁", 
     image: "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?auto=format&fit=crop&w=400&h=300", 
     couleur: "#f9c74f" },
@@ -85,12 +85,12 @@
       document.getElementById("thought-image").src = p.image;
       document.body.style.backgroundColor = p.couleur;
       index = (index + 1) % pensées.length;;
-    }*/
+    }
 
 
  
 
-      let decreBtn = document.getElementById("decreBtn");
+      /*let decreBtn = document.getElementById("decreBtn");
       let increBtn = document.getElementById("increBtn");
       let compteur= document.getElementById("compteur");
       let reset = document.getElementById("reset");
@@ -159,6 +159,6 @@ btnColor.addEventListener("click", () => {
   
   
   document.body.style.backgroundColor = randomColor;
-});
+});*/
 
   
